@@ -1,0 +1,85 @@
+/*
+Project: Personal Website
+Description: This is our personal website project, it will be posted on github using gh-pages
+Color Theme:
+  - Primary Color: #2F3950
+  - Secondary Color: #818794
+  - Complement Color: #515B72
+  - Base Color: #172544
+  - Alt. Color: #020E26
+*/
+
+/*     Global Styels     */
+
+body, html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #818794;
+  list-style-type: none;
+}
+
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/*     Header Styles     */
+
+header{
+  background-color: #2F3950;
+  height::;0px;
+
+}
+
+#logo{
+  width: 40%;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #818794;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  vertical-align: bottom;
+  float:left;
+}
+
+#nav{
+  text-align: center;
+}
+
+#nav ul{
+  list-style-type: none;
+}
+
+#nav li{
+  float:left;
+}
+
+#nav, li:after{
+padding-right: 7px;
+content: " | ";
+}
+
+header a{
+  text-decoration: none;
+  color: #818794;
+}
+
+#social{
+  margin-right: 25px;
+  float: right;
+}
+
+/*     Banner Style      */
+
+#banner{
+  height: 300px;
+  background: url("../img/mountainstream.jpg")
+  center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #172544;
+}
+
+#banner h1{
+  margin: 0;
+  text-align: center;
+}

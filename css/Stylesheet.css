@@ -1,0 +1,30 @@
+.headermain{
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.box-base{
+  height: 125px;
+  float: left;
+  background-color: #959468;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#Logo{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#Links{
+}
+li{
+  padding-right: 10px;
+  float: left;
+}
+
+#Social{
+  vertical-align: middle;
+  text-align: right;
+  margin-right: 20px;
+}
